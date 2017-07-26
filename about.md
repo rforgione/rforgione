@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<div style="margin-top:0px; margin-bottm:15px">
+<div style="margin-top:0px; margin-bottm:15px; padding-top:7px">
 	<img src="{{ site.github.url }}/assets/me.png" style="float:left; margin-top:10px; margin-right:15px; margin-bottom:0px;">
 </div>
 <p style="margin: 0 0 0 0;">
