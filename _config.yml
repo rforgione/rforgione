@@ -7,19 +7,16 @@ permalink:        pretty
 
 # Setup
 title:            Rob Forgione
-tagline:          'Data Scientist / Analyst / Hacker.'
-description:      'Data Scientist / Analyst / Hacker. Currently optimizing ad products and seller marketing tools at <a href="https://etsy.com">Etsy</a>.'
+tagline:          'Data Scientist and machine learning practitioner.'
+description:      'Data Scientist and machine learning practitioner. Currently helping <a href="https://etsy.com">Etsy</a> optimize its ad products and seller marketing tools.'
 url:              /
 #baseurl:          http://rforgione.github.io
 
 author:
-  name:           'Mark Otto'
+  name:           'Rob Forgione'
   url:            https://github.com/rforgione
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
 
 github:
   repo:           https://github.com/rforgione.github.io
