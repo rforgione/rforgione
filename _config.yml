@@ -4,18 +4,17 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
 
 # Setup
 title:            Rob Forgione
 tagline:          'Data Scientist / Analyst / Hacker'
-description:      'I think deep thoughts. Sometimes I like to write them down.'
-url:              http://robforgione.github.io
+description:      'Data Scientist / Analyst / Hacker. I think deep thoughts. Sometimes I like to write them down.'
+url:              http://rforgione.github.io
 baseurl:          /
 
 author:
   name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  url:            https://github.com/rforgione
 
 paginate:         5
 
@@ -23,5 +22,5 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/rforgione.github.io
 gems: 	          [jekyll-paginate, jekyll-gist, rb-pygments]
