@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Rob Forgione
 tagline:          'Data Scientist / Analyst / Hacker'
 description:      'Data Scientist / Analyst / Hacker. I think deep thoughts. Sometimes I like to write them down.'
-url:              http://rforgione.github.io
-baseurl:          http://rforgione.github.io
+#url:              http://rforgione.github.io
+#baseurl:          http://rforgione.github.io
 
 author:
   name:           'Mark Otto'
