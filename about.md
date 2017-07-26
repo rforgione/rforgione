@@ -1,10 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<!--<img src={{ site.url }}/assets/me.png align="left" style="margin-top:5px;margin-right:15px;">-->
+<img src={{ site.url }}/assets/me.png style="float:left; margin-bottom:0;">
+<p>
+Hey there! I'm Rob. I'm a Data Scientist by profession and by hobby. Currently I'm working on the Analytics team at Etsy, where I help them optimize their seller services products. Lately I've been spending a lot of time thinking about deep learning and inference from algorithmic models. 
 </p>
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
