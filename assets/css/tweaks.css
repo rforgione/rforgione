@@ -8,8 +8,14 @@
   float: left;
 }
 
-@media (max-width : 450px) {
+@media (max-width : 425px) {
   .img-float {
     float: none;
   }
+
+  #about-me-image {
+    margin-top: 7px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  } 
 }
