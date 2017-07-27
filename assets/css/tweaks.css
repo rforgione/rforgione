@@ -1,0 +1,15 @@
+#about-me-image {
+  margin-top: 7px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.img-float {
+  float: left;
+}
+
+@media (max-width : 450px) {
+  .img-float {
+    float: none;
+  }
+}

@@ -4,7 +4,8 @@ title: About Me
 ---
 
 <div>
-	<img src="{{ site.github.url }}/assets/me.png" style="float:left; margin-top:7px; margin-right:15px; margin-bottom:0px;">
+	<!--<img src="{{ site.github.url }}/assets/me.png" class="img-float" style="margin-top:7px; margin-right:15px; margin-bottom:0px;">-->
+  <img src="{{ site.github.url }}/assets/me.png" id="about-me-image" class="img-float">
 </div>
 <p style="margin: 0 0 0 0;">
 	Hey there! I'm Rob. Currently I'm working with the Analytics team at Etsy, helping them to optimize their advertising products and 
