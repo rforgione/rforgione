@@ -1,5 +1,5 @@
 ---
-title: Inference from Algorithmic Models
+title: Making Inferences from Black-Box Algorithmic Models
 ---
 
 Lately I've been thinking a lot about alternative ways to make inferences from data. Specifically, I've been interested in figuring out better ways to understand relationships between variables using procedures that don't rely on unreasonable assumptions. 
