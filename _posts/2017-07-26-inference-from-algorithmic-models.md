@@ -2,7 +2,7 @@
 title: Inference from Algorithmic Models
 ---
 
-Lately I've been thinking a lot about alternative ways to make inferences from data. Specifically, I've been interested in figuring out better ways to understand relationships between variables that don't rely on unreasonable assumptions. 
+Lately I've been thinking a lot about alternative ways to make inferences from data. Specifically, I've been interested in figuring out better ways to understand relationships between variables using procedures that don't rely on unreasonable assumptions. 
 
 Right now, I'm in the process of working through the [FastAI Deep Learning lectures](http://course.fast.ai/), taught by Jeremy Howard and Rachel Thomas. In a thread on the course forums, Jeremy mentioned [this](http://projecteuclid.org/euclid.ss/1009213726) paper -- I was immediately intrigued, as 
 it summarized a number of things that I've been thinking about around making inferences from black-box models. In short, the paper describes the tendency for stasticians to focus heavily on data models, often to the exclusion of problems that are better-solved using an algorithmic approach. This leads to the overuse of data modeling, and the reluctance of statisticians to dig into algorithmic solutions (and the fascinating problems that come with them).
