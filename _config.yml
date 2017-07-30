@@ -19,5 +19,5 @@ author:
 paginate:         5
 
 github:
-  repo:           https://github.com/rforgione.github.io
+  repo:           https://github.com/rforgione/rforgione.github.io
 gems: 	          [jekyll-paginate, jekyll-gist, rb-pygments]
