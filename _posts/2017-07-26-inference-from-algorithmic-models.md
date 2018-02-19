@@ -13,7 +13,7 @@ From there, the analyst computes some sample parameter of interest and runs a hy
 
 Brieman argues that it would be better to focus on finding better predictive models (by, for example, using algorithmic machine learning techniques) than on forcing a problem into a data model that it doesn't naturally fit. Rather than fitting a linear regression to a series of variables that almost certainly don't have a linear relationship, focus on using more flexible methods that more accurately model the mapping function between input and output. This approach suggests that, first and foremost, we need to get an accurate model. We can worry about learning from it later.
 
-But this begs the (valid) question: if we focus on finding an accurate predictive algorithm, and this model ends up being a black box, how do we take the model and learn anything from it later? I think this is the right question, and I think there is exciting work to be done in this area. The author seems to *love* Random Forests, and goes on at length about using feature importance methods to understand what variables are driving the model. He briefly mentions performing the same feature importance analysis on a logistic regression, but his focus is really on Random Forests. The Random Forest variable importance analysis technique is pretty straightforward:
+But this begs the (valid) question: if we focus on finding an accurate predictive algorithm, and this model ends up being a black box, how do we take the model and learn anything from it later? I think this is the right question, and I think there is exciting work to be done in this area. The author[^1] goes on at length about using feature importance methods for understanding what variables are driving the model. He briefly mentions performing the same feature importance analysis on a logistic regression, but his focus is really on Random Forests. The Random Forest variable importance analysis technique is pretty straightforward:
 1. Train and tune the model
 2. Each of the individual trees in the forest is a bootstrapped sample where a handful of examples are left out (the Out Of Bag -- or OOB -- samples). Step 2 is to make predictions on the OOB examples
 3. Then, for each variable, we perturb the values just a bit. We make predictions again for the perturbed-value model, and see how much worse our model gets
@@ -27,3 +27,5 @@ I did some digging to see what sort of research is being done in this area. I ca
 As someone works in an ecommerce setting where useful insights have the potential to have a huge impact, I find these approaches incredibly exciting. I'm excited to experiment with them in my own work. If you're familiar with any related research, I'd love to hear from you!
 
 Until next time. 
+
+[^1]: Fun Fact: Leo Brieman actually invented the Random Forest!
