@@ -8,8 +8,5 @@ title: About Me
   <img src="{{ site.github.url }}/assets/me.png" id="about-me-image" class="img-float">
 </div>
 <p style="margin: 0 0 0 0;">
-	Hey there! I'm Rob. Currently I'm working as a software engineer at <a href="https://etsy.com">Etsy</a>, building advertising products and 
-	seller marketing tools. Recently my passions have centered around deep learning. I'm also especially interested in researching
-  ways to make inferences and insights possible even in the context of "black-box" approaches. If you're interested in collaborating and/or want to chat, 
-  you can reach me at rforgione (at) gmail (dot) com. 
+	Hey there! I'm Rob. Currently I'm working as a software engineer at <a href="https://etsy.com">Etsy</a>, building seller ad products and marketing tools. My career has walked the line between data science and software engineering, and I'm passionate about both (with a preference for working on projects that combine the two). If you're interested in collaborating and/or want to chat, you can reach me at rforgione (at) gmail (dot) com. 
 </p>
