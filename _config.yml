@@ -8,9 +8,9 @@ permalink:        pretty
 # Setup
 title:            Rob Forgione
 tagline:          'Data scientist and software engineer.'
-description:      'Data scientist and software engineer. Currently working on seller ad products and marketing tools at <a href="https://etsy.com">Etsy</a>.'
-url:              /
-# baseurl:          http://rforgione.github.io
+description:      'Data scientist and software engineer. Currently working on machine learning problems in the search ranking space at <a href="https://etsy.com">Etsy</a>.'
+url:              https://rforgione.github.io
+baseurl:          /
 
 author:
   name:           'Rob Forgione'
@@ -20,4 +20,8 @@ paginate:         5
 
 github:
   repo:           https://github.com/rforgione/rforgione.github.io
-gems: 	          [jekyll-paginate, jekyll-gist, rb-pygments]
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - rb-pygments
